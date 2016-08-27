@@ -1,0 +1,13 @@
+ MWbalanced-firmware-none/Appcode/isr.c
+            SampleInputVoltage();SampleInputVoltage//采集数据函数
+            AngleControl();SampleInputVoltage//直立控制函数
+            GetMotorPulse(); //采集脉冲函数
+            EliminateDirectionDeviation(); //短距离直线纠正控制函数
+            SpeedControl(); //速度控制函数
+            UltraControl(); //红外控制
+            DirectionControl(); //红外循迹方向控制函数
+            MotorOutput(); //电机输出函数
+                 MWbalanced-firmware-none/Appcode/carstand.c
+        void Uart2() interrupt 8 using 1
+
+

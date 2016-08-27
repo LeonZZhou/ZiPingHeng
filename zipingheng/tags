@@ -1,0 +1,690 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+$NOMOD51	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^$NOMOD51$/;"	l
+AC	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit AC         =   PSW^6;$/;"	v
+ACC	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr ACC         =   0xE0;   \/\/0000,0000 ÀÛ¼ÓÆ÷Accumulator$/;"	v
+ACC	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^ACC     DATA    0E0H$/;"	l
+ACCEL_CONFIG	miaowu/MWbalanced-firmware-none/common/inc/mpu6050.h	15;"	d
+ACCEL_XOUT_H	miaowu/MWbalanced-firmware-none/common/inc/mpu6050.h	16;"	d
+ACCEL_XOUT_L	miaowu/MWbalanced-firmware-none/common/inc/mpu6050.h	17;"	d
+ACCEL_YOUT_H	miaowu/MWbalanced-firmware-none/common/inc/mpu6050.h	18;"	d
+ACCEL_YOUT_L	miaowu/MWbalanced-firmware-none/common/inc/mpu6050.h	19;"	d
+ACCEL_ZOUT_H	miaowu/MWbalanced-firmware-none/common/inc/mpu6050.h	20;"	d
+ACCEL_ZOUT_L	miaowu/MWbalanced-firmware-none/common/inc/mpu6050.h	21;"	d
+ADCInit	miaowu/MWbalanced-firmware-none/Driver/src/adc.c	/^void ADCInit(void)$/;"	f
+ADC_CONTR	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr ADC_CONTR   =   0xBC;   \/\/0000,0000 A\/D×ª»»¿ØÖÆ¼Ä´æÆ÷$/;"	v
+ADC_RES	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr ADC_RES     =   0xBD;   \/\/0000,0000 A\/D×ª»»½á¹û¸ß8Î»$/;"	v
+ADC_RESL	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr ADC_RESL    =   0xBE;   \/\/0000,0000 A\/D×ª»»½á¹ûµÍ2Î»$/;"	v
+AIN1	main0711.c	/^const int AIN1 = 12;$/;"	v
+AIN1	miaowu/MWbalanced-firmware-none/BSP/IOConfig.h	/^sbit AIN1 = P2^0;$/;"	v
+AIN1	motor.c	/^int AIN1 = 12; \/\/Direction$/;"	v
+AIN2	main0711.c	/^const int AIN2 = 7;$/;"	v
+AIN2	miaowu/MWbalanced-firmware-none/BSP/IOConfig.h	/^sbit AIN2 = P4^4;$/;"	v
+AIN2	motor.c	/^int AIN2 = 7; \/\/Direction$/;"	v
+AUXR	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr AUXR        =   0x8E;   \/\/0000,0000 ¸¨Öú¼Ä´æÆ÷$/;"	v
+AUXR1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr AUXR1       =   0xA2;   \/\/0000,0000 ¸¨Öú¼Ä´æÆ÷1$/;"	v
+AcceRatio	mpu6050.c	/^float AcceRatio = 16384.0;                  \/\/åŠ é€Ÿåº¦è®¡æ¯”ä¾‹ç³»æ•°$/;"	v
+AcceRatio	mpu6050_kalman2.c	/^float AcceRatio = 16384.0;                  \/\/åŠ é€Ÿåº¦è®¡æ¯”ä¾‹ç³»æ•°$/;"	v
+AngleControl	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^void AngleControl(void)	 $/;"	f
+B	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr B           =   0xF0;   \/\/0000,0000 B¼Ä´æÆ÷$/;"	v
+B	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^B       DATA    0F0H$/;"	l
+BIN1	main0711.c	/^const int BIN1 = 8;$/;"	v
+BIN1	miaowu/MWbalanced-firmware-none/BSP/IOConfig.h	/^sbit BIN1 = P4^3;$/;"	v
+BIN1	motor.c	/^int BIN1 = 8; \/\/Direction$/;"	v
+BIN2	main0711.c	/^const int BIN2 = 9;$/;"	v
+BIN2	miaowu/MWbalanced-firmware-none/BSP/IOConfig.h	/^sbit BIN2 = P4^2;$/;"	v
+BIN2	motor.c	/^int BIN2 = 9; \/\/Direction$/;"	v
+BUS_SPEED	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr BUS_SPEED   =   0xA1;   \/\/xx10,x011 ×ÜÏßËÙ¶È¿ØÖÆ¼Ä´æÆ÷$/;"	v
+BatteryChecker	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^void BatteryChecker()$/;"	f
+BluetoothControl	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^void BluetoothControl(void)	 $/;"	f
+CAR_ANGLE_SET	miaowu/MWbalanced-firmware-none/Appcode/carstand.h	11;"	d
+CAR_ANGULARSPEED_SET	miaowu/MWbalanced-firmware-none/Appcode/carstand.h	12;"	d
+CAR_POSITION_SET	miaowu/MWbalanced-firmware-none/Appcode/carstand.h	17;"	d
+CAR_SPEED_SET	miaowu/MWbalanced-firmware-none/Appcode/carstand.h	18;"	d
+CCAP0H	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr CCAP0H      =   0xFA;   \/\/0000,0000 PCAÄ£¿é0µÄ²¶×½\/±È½Ï¼Ä´æÆ÷¸ß×Ö½Ú$/;"	v
+CCAP0L	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr CCAP0L      =   0xEA;   \/\/0000,0000 PCAÄ£¿é0µÄ²¶×½\/±È½Ï¼Ä´æÆ÷µÍ×Ö½Ú$/;"	v
+CCAP1H	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr CCAP1H      =   0xFB;   \/\/0000,0000 PCAÄ£¿é1µÄ²¶×½\/±È½Ï¼Ä´æÆ÷¸ß×Ö½Ú$/;"	v
+CCAP1L	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr CCAP1L      =   0xEB;   \/\/0000,0000 PCAÄ£¿é1µÄ²¶×½\/±È½Ï¼Ä´æÆ÷µÍ×Ö½Ú$/;"	v
+CCAP2H	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr CCAP2H      =   0xFC;   \/\/0000,0000 PCAÄ£¿é2µÄ²¶×½\/±È½Ï¼Ä´æÆ÷¸ß×Ö½Ú$/;"	v
+CCAP2L	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr CCAP2L      =   0xEC;   \/\/0000,0000 PCAÄ£¿é2µÄ²¶×½\/±È½Ï¼Ä´æÆ÷µÍ×Ö½Ú$/;"	v
+CCAPM0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr CCAPM0      =   0xDA;   \/\/0000,0000 PCAÄ£¿é0µÄPWM¼Ä´æÆ÷$/;"	v
+CCAPM1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr CCAPM1      =   0xDB;   \/\/0000,0000 PCAÄ£¿é1µÄPWM¼Ä´æÆ÷$/;"	v
+CCAPM2	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr CCAPM2      =   0xDC;   \/\/0000,0000 PCAÄ£¿é2µÄPWM ¼Ä´æÆ÷$/;"	v
+CCF0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit CCF0       =   CCON^0;$/;"	v
+CCF1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit CCF1       =   CCON^1;$/;"	v
+CCF2	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit CCF2       =   CCON^2;$/;"	v
+CCON	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr CCON        =   0xD8;   \/\/00xx,xx00 PCA¿ØÖÆ¼Ä´æÆ÷$/;"	v
+CF	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit CF         =   CCON^7;$/;"	v
+CH	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr CH          =   0xF9;   \/\/0000,0000 PCA¼ÆÊıÆ÷¸ß×Ö½Ú$/;"	v
+CL	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr CL          =   0xE9;   \/\/0000,0000 PCA¼ÆÊıÆ÷µÍ×Ö½Ú$/;"	v
+CLK_DIV	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr CLK_DIV     =   0x97;   \/\/0000,0000 Ê±ÖÓ·ÖÆµ¿ØÖÆ¼Ä´æÆ÷$/;"	v
+CMOD	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr CMOD        =   0xD9;   \/\/0xxx,x000 PCA ¹¤×÷Ä£Ê½¼Ä´æÆ÷$/;"	v
+CMPCR1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr CMPCR1      =   0xE6;   \/\/0000,0000 ±È½ÏÆ÷¿ØÖÆ¼Ä´æÆ÷1$/;"	v
+CMPCR2	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr CMPCR2      =   0xE7;   \/\/0000,0000 ±È½ÏÆ÷¿ØÖÆ¼Ä´æÆ÷2$/;"	v
+CONFIG	miaowu/MWbalanced-firmware-none/common/inc/mpu6050.h	13;"	d
+CR	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit CR         =   CCON^6;$/;"	v
+CRC_CHECK	miaowu/MWbalanced-firmware-none/common/src/outputdata.c	/^unsigned short CRC_CHECK(unsigned char *Buf, unsigned char CRC_CNT)$/;"	f
+CY	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit CY         =   PSW^7;$/;"	v
+Calibration	mpu6050_kalman.c	/^void Calibration()$/;"	f
+CarStandInit	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^void CarStandInit()$/;"	f
+Code1	Cmain.c	/^void Code1()$/;"	f
+Code2	Cmain.c	/^void Code2()$/;"	f
+DEBUG_UART	miaowu/MWbalanced-firmware-none/BSP/IOConfig.h	20;"	d
+DPH	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr DPH         =   0x83;   \/\/0000,0000 Êı¾İÖ¸Õë¸ß×Ö½Ú$/;"	v
+DPH	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^DPH     DATA    83H$/;"	l
+DPL	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr DPL         =   0x82;   \/\/0000,0000 Êı¾İÖ¸ÕëµÍ×Ö½Ú$/;"	v
+DPL	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^DPL     DATA    82H$/;"	l
+DataSynthesis	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^int DataSynthesis(unsigned char REG_Address)	$/;"	f
+Delay10us	miaowu/MWbalanced-firmware-none/driver/src/delay.c	/^void Delay10us()		\/\/@20.000MHz$/;"	f
+Delay1ms	miaowu/MWbalanced-firmware-none/driver/src/delay.c	/^void Delay1ms()		\/\/@20.000MHz$/;"	f
+Delay5us	miaowu/MWbalanced-firmware-none/common/src/i2c.c	/^void Delay5us()		\/\/@20.000MHz$/;"	f
+Delaynms	miaowu/MWbalanced-firmware-none/driver/src/delay.c	/^ void Delaynms(unsigned int n)$/;"	f
+DirectionControl	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^void DirectionControl(void)$/;"	f
+DisableInterrupts	miaowu/MWbalanced-firmware-none/BSP/IOConfig.h	17;"	d
+DriversInit	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^void DriversInit(void)$/;"	f
+EA	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit EA         =   IE^7;$/;"	v
+EADC	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit EADC       =   IE^5;$/;"	v
+ELVD	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit ELVD       =   IE^6;$/;"	v
+ENDIF	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^ENDIF$/;"	l
+ES	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit ES         =   IE^4;$/;"	v
+ET0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit ET0        =   IE^1;$/;"	v
+ET1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit ET1        =   IE^3;$/;"	v
+EX0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit EX0        =   IE^0;$/;"	v
+EX1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit EX1        =   IE^2;$/;"	v
+EXTRN	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^EXTRN CODE (?B_SWITCH0)$/;"	l
+EXTRN	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^EXTRN DATA (?C_IBP)$/;"	l
+EXTRN	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^EXTRN DATA (?C_PBP)$/;"	l
+EXTRN	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^EXTRN DATA (?C_XBP)$/;"	l
+E_left	Cmain.c	/^int E_left =A0; \/\/L298Pç›´æµç”µæœºé©±åŠ¨æ¿çš„å·¦è½®ç”µæœºä½¿èƒ½ç«¯å£è¿æ¥åˆ°æ•°å­—æ¥å£5$/;"	v
+E_right	Cmain.c	/^int E_right =A1; \/\/è¿æ¥å°è½¦å³è½®ç”µæœºçš„ä½¿èƒ½ç«¯å£åˆ°æ•°å­—æ¥å£6$/;"	v
+Echo	miaowu/MWbalanced-firmware-none/Common/src/UltraSonic.c	/^sbit Echo  = P3^2;$/;"	v
+EchoFlag	miaowu/MWbalanced-firmware-none/Common/src/UltraSonic.c	/^bit EchoFlag=0;$/;"	v
+EchoPin	hc-sr04.c	/^const int EchoPin = 13;$/;"	v
+EchoPin	main0711.c	/^const int EchoPin = 13;$/;"	v
+EliminateDirectionDeviation	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^void EliminateDirectionDeviation(void)$/;"	f
+EnableInterrupts	miaowu/MWbalanced-firmware-none/BSP/IOConfig.h	18;"	d
+F0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit F0         =   PSW^5;$/;"	v
+GPIOInit	miaowu/MWbalanced-firmware-none/driver/src/gpio.c	/^void GPIOInit()$/;"	f
+GRAVITY_OFFSET	miaowu/MWbalanced-firmware-none/Appcode/carstand.h	13;"	d
+GYROSCOPE_ANGLE_RATIO	miaowu/MWbalanced-firmware-none/Appcode/carstand.h	15;"	d
+GYRO_CONFIG	miaowu/MWbalanced-firmware-none/common/inc/mpu6050.h	14;"	d
+GYRO_OFFSET	miaowu/MWbalanced-firmware-none/Appcode/carstand.h	14;"	d
+GYRO_XOUT_H	miaowu/MWbalanced-firmware-none/common/inc/mpu6050.h	24;"	d
+GYRO_XOUT_L	miaowu/MWbalanced-firmware-none/common/inc/mpu6050.h	25;"	d
+GYRO_YOUT_H	miaowu/MWbalanced-firmware-none/common/inc/mpu6050.h	26;"	d
+GYRO_YOUT_L	miaowu/MWbalanced-firmware-none/common/inc/mpu6050.h	27;"	d
+GYRO_ZOUT_H	miaowu/MWbalanced-firmware-none/common/inc/mpu6050.h	28;"	d
+GYRO_ZOUT_L	miaowu/MWbalanced-firmware-none/common/inc/mpu6050.h	29;"	d
+GetADCResult	miaowu/MWbalanced-firmware-none/Driver/src/adc.c	/^unsigned char GetADCResult(void)$/;"	f
+GetGyroRevise	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^void GetGyroRevise()$/;"	f
+GetMotorPulse	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^void GetMotorPulse(void)$/;"	f
+GetPitch	mpu6050_kalman.c	/^float GetPitch(float *pRealVals, float fNorm) {$/;"	f
+GetRoll	mpu6050_kalman.c	/^float GetRoll(float *pRealVals, float fNorm) {$/;"	f
+GyroRatio	mpu6050.c	/^float GyroRatio = 131.0;                    \/\/é™€èºä»ªæ¯”ä¾‹ç³»æ•°$/;"	v
+GyroRatio	mpu6050_kalman2.c	/^float GyroRatio = 131.0;                    \/\/é™€èºä»ªæ¯”ä¾‹ç³»æ•°$/;"	v
+I2C_RecvACK	miaowu/MWbalanced-firmware-none/common/src/i2c.c	/^bit I2C_RecvACK()$/;"	f
+I2C_RecvByte	miaowu/MWbalanced-firmware-none/common/src/i2c.c	/^unsigned char I2C_RecvByte()$/;"	f
+I2C_SendACK	miaowu/MWbalanced-firmware-none/common/src/i2c.c	/^void I2C_SendACK(bit ack)$/;"	f
+I2C_SendByte	miaowu/MWbalanced-firmware-none/common/src/i2c.c	/^void I2C_SendByte(unsigned char dat)$/;"	f
+I2C_Start	miaowu/MWbalanced-firmware-none/common/src/i2c.c	/^void I2C_Start()¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡¡\/\/SCLÎª¸ßµçÆ½ÆÚ¼ä£¬SDAÓÉ¸ßµ½µÍ±íÊ¾ÆğÊ¼ĞÅºÅ¡¡¡¡¡¡¡¡$/;"	f
+I2C_Stop	miaowu/MWbalanced-firmware-none/common/src/i2c.c	/^void I2C_Stop()                 \/\/SCLÎª¸ßµçÆ½ÆÚ¼ä£¬SDAÓÉµÍµ½¸ß±íÊ¾ÖÕÖ¹ĞÅºÅ$/;"	f
+IAP_ADDRH	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr IAP_ADDRH   =   0xC3;   \/\/0000,0000 EEPROMµØÖ·¸ß×Ö½Ú$/;"	v
+IAP_ADDRL	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr IAP_ADDRL   =   0xC4;   \/\/0000,0000 EEPROMµØÖ·µÚ×Ö½Ú$/;"	v
+IAP_CMD	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr IAP_CMD     =   0xC5;   \/\/xxxx,xx00 EEPROMÃüÁî¼Ä´æÆ÷$/;"	v
+IAP_CONTR	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr IAP_CONTR   =   0xC7;   \/\/0000,x000 EEPROM¿ØÖÆ¼Ä´æÆ÷$/;"	v
+IAP_DATA	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr IAP_DATA    =   0xC2;   \/\/0000,0000 EEPROMÊı¾İ¼Ä´æÆ÷$/;"	v
+IAP_TRIG	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr IAP_TRIG    =   0xC6;   \/\/0000,0000 EEPRPMÃüÁî´¥·¢¼Ä´æÆ÷$/;"	v
+IBPSTACK	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^IBPSTACK        EQU     0       ; set to 1 if small reentrant is used.$/;"	d
+IBPSTACKTOP	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^IBPSTACKTOP     EQU     0xFF +1     ; default 0FFH+1  $/;"	d
+IDATALEN	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^IDATALEN        EQU     80H$/;"	d
+IDATALOOP	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^IDATALOOP:      MOV     @R0,A$/;"	l
+IE	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr IE          =   0xA8;   \/\/0000,0000 ÖĞ¶Ï¿ØÖÆ¼Ä´æÆ÷$/;"	v
+IE0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit IE0        =   TCON^1;$/;"	v
+IE1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit IE1        =   TCON^3;$/;"	v
+IE2	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr IE2         =   0xAF;   \/\/0000,0000 ÖĞ¶Ï¿ØÖÆ¼Ä´æÆ÷2$/;"	v
+IF	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^IF IBPSTACK <> 0$/;"	l
+IF	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^IF IDATALEN <> 0$/;"	l
+IF	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^IF PBPSTACK <> 0$/;"	l
+IF	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^IF PDATALEN <> 0$/;"	l
+IF	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^IF PPAGEENABLE <> 0$/;"	l
+IF	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^IF XBPSTACK <> 0$/;"	l
+IF	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^IF XDATALEN <> 0$/;"	l
+IF_CAR_FALL	miaowu/MWbalanced-firmware-none/BSP/IOConfig.h	22;"	d
+INT_CLKO	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr INT_CLKO    =   0x8F;   \/\/0000,0000 Íâ²¿ÖĞ¶ÏÓëÊ±ÖÓÊä³ö¿ØÖÆ¼Ä´æÆ÷$/;"	v
+IN_OFF	miaowu/MWbalanced-firmware-none/Driver/inc/isp.h	/^sbit  IN_OFF=P3^0;\/\/´®¿Ú½ÓÊÕ¶Ë$/;"	v
+IP	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr IP          =   0xB8;   \/\/0000,0000 ÖĞ¶ÏÓÅÏÈ¼¶¼Ä´æÆ÷$/;"	v
+IP2	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr IP2         =   0xB5;   \/\/xxxx,xx00 ÖĞ¶ÏÓÅÏÈ¼¶¼Ä´æÆ÷2$/;"	v
+IT0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit IT0        =   TCON^0;$/;"	v
+IT1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit IT1        =   TCON^2;$/;"	v
+Kx	mpu6050.c	/^float Px=1, Rx, Kx, Sx, Vx, Qx;             \/\/xè½´å¡å°”æ›¼å˜é‡$/;"	v
+Kx	mpu6050_kalman2.c	/^float Px=1, Rx, Kx, Sx, Vx, Qx;             \/\/xè½´å¡å°”æ›¼å˜é‡$/;"	v
+Ky	mpu6050.c	/^float Py=1, Ry, Ky, Sy, Vy, Qy;             \/\/yè½´å¡å°”æ›¼å˜é‡$/;"	v
+Ky	mpu6050_kalman2.c	/^float Py=1, Ry, Ky, Sy, Vy, Qy;             \/\/yè½´å¡å°”æ›¼å˜é‡$/;"	v
+Kz	mpu6050.c	/^float Pz=1, Rz, Kz, Sz, Vz, Qz;             \/\/zè½´å¡å°”æ›¼å˜é‡$/;"	v
+Kz	mpu6050_kalman2.c	/^float Pz=1, Rz, Kz, Sz, Vz, Qz;             \/\/zè½´å¡å°”æ›¼å˜é‡$/;"	v
+LED0	miaowu/MWbalanced-firmware-none/BSP/IOConfig.h	/^sbit LED0 = P3^7;$/;"	v
+LED1	miaowu/MWbalanced-firmware-none/BSP/IOConfig.h	/^sbit LED1 = P4^1;$/;"	v
+LEDInit	miaowu/MWbalanced-firmware-none/common/src/led.c	/^void LEDInit(void)$/;"	f
+LeftIR	miaowu/MWbalanced-firmware-none/BSP/IOConfig.h	/^sbit LeftIR=P3^4;  \/\/¶¨ÒåÇ°·½×ó²àºìÍâÌ½Í·¶Ë¿Ú	 $/;"	v
+MOTOR_LEFT_SPEED_POSITIVE	miaowu/MWbalanced-firmware-none/Appcode/carstand.h	19;"	d
+MOTOR_OUT_DEAD_VAL	miaowu/MWbalanced-firmware-none/Appcode/carstand.h	25;"	d
+MOTOR_OUT_MAX	miaowu/MWbalanced-firmware-none/Appcode/carstand.h	26;"	d
+MOTOR_OUT_MIN	miaowu/MWbalanced-firmware-none/Appcode/carstand.h	27;"	d
+MOTOR_RIGHT_SPEED_POSITIVE	miaowu/MWbalanced-firmware-none/Appcode/carstand.h	20;"	d
+MPU	main0711.c	/^const int MPU = 0x68; \/\/MPU-6050çš„I2Cåœ°å€$/;"	v
+MPU	mpu6050_kalman.c	/^const int MPU = 0x68; \/\/MPU-6050çš„I2Cåœ°å€$/;"	v
+MPU6050Init	miaowu/MWbalanced-firmware-none/common/src/mpu6050.c	/^void MPU6050Init(void)$/;"	f
+M_left	Cmain.c	/^int M_left =6; \/\/L298Pç›´æµç”µæœºé©±åŠ¨æ¿çš„å·¦è½®ç”µæœºè½¬å‘ç«¯å£è¿æ¥åˆ°æ•°å­—æ¥å£4$/;"	v
+M_left2	Cmain.c	/^int M_left2=7;$/;"	v
+M_right	Cmain.c	/^int M_right =8; \/\/è¿æ¥å°è½¦å³è½®ç”µæœºçš„è½¬å‘ç«¯å£åˆ°æ•°å­—æ¥å£7$/;"	v
+M_right2	Cmain.c	/^int M_right2=9;$/;"	v
+MotorOutput	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^void MotorOutput(void)$/;"	f
+OFF_LED0	miaowu/MWbalanced-firmware-none/common/inc/led.h	9;"	d
+OFF_LED1	miaowu/MWbalanced-firmware-none/common/inc/led.h	10;"	d
+ON_LED0	miaowu/MWbalanced-firmware-none/common/inc/led.h	6;"	d
+ON_LED1	miaowu/MWbalanced-firmware-none/common/inc/led.h	7;"	d
+OV	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit OV         =   PSW^2;$/;"	v
+OutData	miaowu/MWbalanced-firmware-none/common/src/outputdata.c	/^float OutData[4] = { 0 };$/;"	v
+OutPut_Data	miaowu/MWbalanced-firmware-none/common/src/outputdata.c	/^void OutPut_Data(void)$/;"	f
+P	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P          =   PSW^0;$/;"	v
+P0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P0          =   0x80;   \/\/1111,1111 ¶Ë¿Ú0$/;"	v
+P00	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P00        =   P0^0;$/;"	v
+P01	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P01        =   P0^1;$/;"	v
+P02	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P02        =   P0^2;$/;"	v
+P03	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P03        =   P0^3;$/;"	v
+P04	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P04        =   P0^4;$/;"	v
+P05	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P05        =   P0^5;$/;"	v
+P06	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P06        =   P0^6;$/;"	v
+P07	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P07        =   P0^7;$/;"	v
+P0M0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P0M0        =   0x94;   \/\/0000,0000 ¶Ë¿Ú0Ä£Ê½¼Ä´æÆ÷0$/;"	v
+P0M1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P0M1        =   0x93;   \/\/0000,0000 ¶Ë¿Ú0Ä£Ê½¼Ä´æÆ÷1$/;"	v
+P1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P1          =   0x90;   \/\/1111,1111 ¶Ë¿Ú1$/;"	v
+P10	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P10        =   P1^0;$/;"	v
+P11	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P11        =   P1^1;$/;"	v
+P12	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P12        =   P1^2;$/;"	v
+P13	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P13        =   P1^3;$/;"	v
+P14	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P14        =   P1^4;$/;"	v
+P15	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P15        =   P1^5;$/;"	v
+P16	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P16        =   P1^6;$/;"	v
+P17	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P17        =   P1^7;$/;"	v
+P1ASF	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P1ASF       =   0x9D;   \/\/0000,0000 ¶Ë¿Ú1Ä£Äâ¹¦ÄÜÅäÖÃ¼Ä´æÆ÷$/;"	v
+P1M0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P1M0        =   0x92;   \/\/0000,0000 ¶Ë¿Ú1Ä£Ê½¼Ä´æÆ÷0$/;"	v
+P1M1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P1M1        =   0x91;   \/\/0000,0000 ¶Ë¿Ú1Ä£Ê½¼Ä´æÆ÷1$/;"	v
+P2	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P2          =   0xA0;   \/\/1111,1111 ¶Ë¿Ú2$/;"	v
+P20	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P20        =   P2^0;$/;"	v
+P21	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P21        =   P2^1;$/;"	v
+P22	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P22        =   P2^2;$/;"	v
+P23	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P23        =   P2^3;$/;"	v
+P24	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P24        =   P2^4;$/;"	v
+P25	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P25        =   P2^5;$/;"	v
+P26	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P26        =   P2^6;$/;"	v
+P27	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P27        =   P2^7;$/;"	v
+P2M0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P2M0        =   0x96;   \/\/0000,0000 ¶Ë¿Ú2Ä£Ê½¼Ä´æÆ÷0$/;"	v
+P2M1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P2M1        =   0x95;   \/\/0000,0000 ¶Ë¿Ú2Ä£Ê½¼Ä´æÆ÷1$/;"	v
+P3	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P3          =   0xB0;   \/\/1111,1111 ¶Ë¿Ú3$/;"	v
+P30	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P30        =   P3^0;$/;"	v
+P31	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P31        =   P3^1;$/;"	v
+P32	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P32        =   P3^2;$/;"	v
+P33	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P33        =   P3^3;$/;"	v
+P34	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P34        =   P3^4;$/;"	v
+P35	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P35        =   P3^5;$/;"	v
+P36	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P36        =   P3^6;$/;"	v
+P37	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P37        =   P3^7;$/;"	v
+P3M0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P3M0        =   0xB2;   \/\/0000,0000 ¶Ë¿Ú3Ä£Ê½¼Ä´æÆ÷0$/;"	v
+P3M1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P3M1        =   0xB1;   \/\/0000,0000 ¶Ë¿Ú3Ä£Ê½¼Ä´æÆ÷1$/;"	v
+P4	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P4          =   0xC0;   \/\/1111,1111 ¶Ë¿Ú4$/;"	v
+P40	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P40        =   P4^0;$/;"	v
+P41	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P41        =   P4^1;$/;"	v
+P42	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P42        =   P4^2;$/;"	v
+P43	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P43        =   P4^3;$/;"	v
+P44	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P44        =   P4^4;$/;"	v
+P45	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P45        =   P4^5;$/;"	v
+P46	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P46        =   P4^6;$/;"	v
+P47	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P47        =   P4^7;$/;"	v
+P4M0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P4M0        =   0xB4;   \/\/0000,0000 ¶Ë¿Ú4Ä£Ê½¼Ä´æÆ÷0$/;"	v
+P4M1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P4M1        =   0xB3;   \/\/0000,0000 ¶Ë¿Ú4Ä£Ê½¼Ä´æÆ÷1$/;"	v
+P5	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P5          =   0xC8;   \/\/xxxx,1111 ¶Ë¿Ú5$/;"	v
+P50	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P50        =   P5^0;$/;"	v
+P51	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P51        =   P5^1;$/;"	v
+P52	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P52        =   P5^2;$/;"	v
+P53	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P53        =   P5^3;$/;"	v
+P54	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P54        =   P5^4;$/;"	v
+P55	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P55        =   P5^5;$/;"	v
+P56	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P56        =   P5^6;$/;"	v
+P57	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P57        =   P5^7;$/;"	v
+P5M0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P5M0        =   0xCA;   \/\/0000,0000 ¶Ë¿Ú5Ä£Ê½¼Ä´æÆ÷0$/;"	v
+P5M1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P5M1        =   0xC9;   \/\/0000,0000 ¶Ë¿Ú5Ä£Ê½¼Ä´æÆ÷1$/;"	v
+P6	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P6          =   0xE8;   \/\/0000,0000 ¶Ë¿Ú6$/;"	v
+P60	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P60        =   P6^0;$/;"	v
+P61	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P61        =   P6^1;$/;"	v
+P62	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P62        =   P6^2;$/;"	v
+P63	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P63        =   P6^3;$/;"	v
+P64	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P64        =   P6^4;$/;"	v
+P65	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P65        =   P6^5;$/;"	v
+P66	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P66        =   P6^6;$/;"	v
+P67	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P67        =   P6^7;$/;"	v
+P6M0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P6M0        =   0xCC;   \/\/0000,0000 ¶Ë¿Ú6Ä£Ê½¼Ä´æÆ÷0$/;"	v
+P6M1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P6M1        =   0xCB;   \/\/0000,0000 ¶Ë¿Ú6Ä£Ê½¼Ä´æÆ÷1$/;"	v
+P7	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P7          =   0xF8;   \/\/0000,0000 ¶Ë¿Ú7$/;"	v
+P70	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P70        =   P7^0;$/;"	v
+P71	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P71        =   P7^1;$/;"	v
+P72	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P72        =   P7^2;$/;"	v
+P73	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P73        =   P7^3;$/;"	v
+P74	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P74        =   P7^4;$/;"	v
+P75	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P75        =   P7^5;$/;"	v
+P76	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P76        =   P7^6;$/;"	v
+P77	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit P77        =   P7^7;$/;"	v
+P7M0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P7M0        =   0xE2;   \/\/0000,0000 ¶Ë¿Ú7Ä£Ê½¼Ä´æÆ÷0$/;"	v
+P7M1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P7M1        =   0xE1;   \/\/0000,0000 ¶Ë¿Ú7Ä£Ê½¼Ä´æÆ÷1$/;"	v
+PADC	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit PADC       =   IP^5;$/;"	v
+PBPSTACK	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^PBPSTACK        EQU     0       ; set to 1 if compact reentrant is used.$/;"	d
+PBPSTACKTOP	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^PBPSTACKTOP     EQU     0xFF +1     ; default 0FFH+1  $/;"	d
+PCAInit	miaowu/MWbalanced-firmware-none/driver/src/pwm.c	/^void PCAInit()$/;"	f
+PCA_PWM0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr PCA_PWM0    =   0xF2;   \/\/xxxx,xx00 PCAÄ£¿é0µÄPWM¼Ä´æÆ÷$/;"	v
+PCA_PWM1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr PCA_PWM1    =   0xF3;   \/\/xxxx,xx00 PCAÄ£¿é1µÄPWM¼Ä´æÆ÷$/;"	v
+PCA_PWM2	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr PCA_PWM2    =   0xF4;   \/\/xxxx,xx00 PCAÄ£¿é1µÄPWM¼Ä´æÆ÷$/;"	v
+PCON	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr PCON        =   0x87;   \/\/0001,0000 µçÔ´¿ØÖÆ¼Ä´æÆ÷$/;"	v
+PDATALEN	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^PDATALEN        EQU     0H$/;"	d
+PDATALOOP	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^PDATALOOP:      MOVX    @R0,A$/;"	l
+PDATASTART	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^PDATASTART      EQU     0H$/;"	d
+PLVD	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit PLVD       =   IP^6;$/;"	v
+PPAGE	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^PPAGE           EQU     0$/;"	d
+PPAGEENABLE	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^PPAGEENABLE     EQU     0       ; set to 1 if pdata object are used.$/;"	d
+PPAGE_SFR	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^PPAGE_SFR       DATA    0A0H$/;"	l
+PPCA	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit PPCA       =   IP^7;$/;"	v
+PS	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit PS         =   IP^4;$/;"	v
+PSW	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr PSW         =   0xD0;   \/\/0000,0000 ³ÌĞò×´Ì¬×Ö$/;"	v
+PT0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit PT0        =   IP^1;$/;"	v
+PT1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit PT1        =   IP^3;$/;"	v
+PWM2CR	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	263;"	d
+PWM2T1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	257;"	d
+PWM2T1H	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	258;"	d
+PWM2T1L	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	259;"	d
+PWM2T2	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	260;"	d
+PWM2T2H	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	261;"	d
+PWM2T2L	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	262;"	d
+PWM3CR	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	270;"	d
+PWM3T1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	264;"	d
+PWM3T1H	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	265;"	d
+PWM3T1L	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	266;"	d
+PWM3T2	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	267;"	d
+PWM3T2H	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	268;"	d
+PWM3T2L	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	269;"	d
+PWM4CR	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	277;"	d
+PWM4T1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	271;"	d
+PWM4T1H	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	272;"	d
+PWM4T1L	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	273;"	d
+PWM4T2	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	274;"	d
+PWM4T2H	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	275;"	d
+PWM4T2L	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	276;"	d
+PWM5CR	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	284;"	d
+PWM5T1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	278;"	d
+PWM5T1H	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	279;"	d
+PWM5T1L	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	280;"	d
+PWM5T2	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	281;"	d
+PWM5T2H	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	282;"	d
+PWM5T2L	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	283;"	d
+PWM6CR	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	291;"	d
+PWM6T1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	285;"	d
+PWM6T1H	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	286;"	d
+PWM6T1L	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	287;"	d
+PWM6T2	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	288;"	d
+PWM6T2H	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	289;"	d
+PWM6T2L	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	290;"	d
+PWM7CR	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	298;"	d
+PWM7T1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	292;"	d
+PWM7T1H	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	293;"	d
+PWM7T1L	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	294;"	d
+PWM7T2	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	295;"	d
+PWM7T2H	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	296;"	d
+PWM7T2L	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	297;"	d
+PWMA	main0711.c	/^const int PWMA = 5;$/;"	v
+PWMA	motor.c	/^int PWMA = 5; \/\/Speed control $/;"	v
+PWMB	main0711.c	/^const int PWMB = 6;$/;"	v
+PWMB	motor.c	/^int PWMB = 6; \/\/Speed control$/;"	v
+PWMC	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	253;"	d
+PWMCFG	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr PWMCFG      =   0xf1;   \/\/x000,0000 PWMÅäÖÃ¼Ä´æÆ÷$/;"	v
+PWMCH	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	254;"	d
+PWMCKS	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	256;"	d
+PWMCL	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	255;"	d
+PWMCR	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr PWMCR       =   0xf5;   \/\/0000,0000 PWM¿ØÖÆ¼Ä´æÆ÷$/;"	v
+PWMFDCR	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr PWMFDCR     =   0xf7;   \/\/xx00,0000 PWMÍâ²¿Òì³£¼ì²â¿ØÖÆ¼Ä´æÆ÷$/;"	v
+PWMIF	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr PWMIF       =   0xf6;   \/\/x000,0000 PWMÖĞ¶Ï±êÖ¾¼Ä´æÆ÷$/;"	v
+PWMInit	miaowu/MWbalanced-firmware-none/driver/src/pwm.c	/^void PWMInit()$/;"	f
+PWR_MGMT_1	miaowu/MWbalanced-firmware-none/common/inc/mpu6050.h	30;"	d
+PX0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit PX0        =   IP^0;$/;"	v
+PX1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit PX1        =   IP^2;$/;"	v
+P_SW1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P_SW1       =   0xA2;   \/\/0000,0000 ÍâÉè¶Ë¿ÚÇĞ»»¼Ä´æÆ÷1$/;"	v
+P_SW2	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr P_SW2       =   0xBA;   \/\/0xxx,x000 ÍâÉè¶Ë¿ÚÇĞ»»¼Ä´æÆ÷$/;"	v
+PinA_left	Cmain.c	14;"	d	file:
+PinA_right	Cmain.c	17;"	d	file:
+PinB_left	Cmain.c	15;"	d	file:
+PinB_right	Cmain.c	18;"	d	file:
+Px	mpu6050.c	/^float Px=1, Rx, Kx, Sx, Vx, Qx;             \/\/xè½´å¡å°”æ›¼å˜é‡$/;"	v
+Px	mpu6050_kalman2.c	/^float Px=1, Rx, Kx, Sx, Vx, Qx;             \/\/xè½´å¡å°”æ›¼å˜é‡$/;"	v
+Py	mpu6050.c	/^float Py=1, Ry, Ky, Sy, Vy, Qy;             \/\/yè½´å¡å°”æ›¼å˜é‡$/;"	v
+Py	mpu6050_kalman2.c	/^float Py=1, Ry, Ky, Sy, Vy, Qy;             \/\/yè½´å¡å°”æ›¼å˜é‡$/;"	v
+Pz	mpu6050.c	/^float Pz=1, Rz, Kz, Sz, Vz, Qz;             \/\/zè½´å¡å°”æ›¼å˜é‡$/;"	v
+Pz	mpu6050_kalman2.c	/^float Pz=1, Rz, Kz, Sz, Vz, Qz;             \/\/zè½´å¡å°”æ›¼å˜é‡$/;"	v
+Qx	mpu6050.c	/^float Px=1, Rx, Kx, Sx, Vx, Qx;             \/\/xè½´å¡å°”æ›¼å˜é‡$/;"	v
+Qx	mpu6050_kalman2.c	/^float Px=1, Rx, Kx, Sx, Vx, Qx;             \/\/xè½´å¡å°”æ›¼å˜é‡$/;"	v
+Qy	mpu6050.c	/^float Py=1, Ry, Ky, Sy, Vy, Qy;             \/\/yè½´å¡å°”æ›¼å˜é‡$/;"	v
+Qy	mpu6050_kalman2.c	/^float Py=1, Ry, Ky, Sy, Vy, Qy;             \/\/yè½´å¡å°”æ›¼å˜é‡$/;"	v
+Qz	mpu6050.c	/^float Pz=1, Rz, Kz, Sz, Vz, Qz;             \/\/zè½´å¡å°”æ›¼å˜é‡$/;"	v
+Qz	mpu6050_kalman2.c	/^float Pz=1, Rz, Kz, Sz, Vz, Qz;             \/\/zè½´å¡å°”æ›¼å˜é‡$/;"	v
+RB8	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit RB8        =   SCON^2;$/;"	v
+REN	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit REN        =   SCON^4;$/;"	v
+RI	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit RI         =   SCON^0;$/;"	v
+RS0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit RS0        =   PSW^3;$/;"	v
+RS1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit RS1        =   PSW^4;$/;"	v
+ReadAccGyr	mpu6050_kalman.c	/^void ReadAccGyr(int *pVals) {$/;"	f
+ReadMPUReg	mpu6050_kalman.c	/^unsigned char ReadMPUReg(int nReg) {$/;"	f
+Rectify	mpu6050_kalman.c	/^void Rectify(int *pReadout, float *pRealVals) {$/;"	f
+RightIR	miaowu/MWbalanced-firmware-none/BSP/IOConfig.h	/^sbit RightIR=P5^0; \/\/¶¨ÒåÇ°·½ÓÒ²àºìÍâÌ½Í·¶Ë¿Ú$/;"	v
+Rx	mpu6050.c	/^float Px=1, Rx, Kx, Sx, Vx, Qx;             \/\/xè½´å¡å°”æ›¼å˜é‡$/;"	v
+Rx	mpu6050_kalman2.c	/^float Px=1, Rx, Kx, Sx, Vx, Qx;             \/\/xè½´å¡å°”æ›¼å˜é‡$/;"	v
+Ry	mpu6050.c	/^float Py=1, Ry, Ky, Sy, Vy, Qy;             \/\/yè½´å¡å°”æ›¼å˜é‡$/;"	v
+Ry	mpu6050_kalman2.c	/^float Py=1, Ry, Ky, Sy, Vy, Qy;             \/\/yè½´å¡å°”æ›¼å˜é‡$/;"	v
+Rz	mpu6050.c	/^float Pz=1, Rz, Kz, Sz, Vz, Qz;             \/\/zè½´å¡å°”æ›¼å˜é‡$/;"	v
+Rz	mpu6050_kalman2.c	/^float Pz=1, Rz, Kz, Sz, Vz, Qz;             \/\/zè½´å¡å°”æ›¼å˜é‡$/;"	v
+S2BUF	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr S2BUF       =   0x9B;   \/\/xxxx,xxxx ´®¿Ú2Êı¾İ¼Ä´æÆ÷$/;"	v
+S2CON	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr S2CON       =   0x9A;   \/\/0000,0000 ´®¿Ú2¿ØÖÆ¼Ä´æÆ÷$/;"	v
+S3BUF	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr S3BUF       =   0xAD;   \/\/xxxx,xxxx ´®¿Ú3Êı¾İ¼Ä´æÆ÷$/;"	v
+S3CON	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr S3CON       =   0xAC;   \/\/0000,0000 ´®¿Ú3¿ØÖÆ¼Ä´æÆ÷$/;"	v
+S4BUF	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr S4BUF       =   0x85;   \/\/xxxx,xxxx ´®¿Ú4Êı¾İ¼Ä´æÆ÷$/;"	v
+S4CON	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr S4CON       =   0x84;   \/\/0000,0000 ´®¿Ú4¿ØÖÆ¼Ä´æÆ÷$/;"	v
+SADDR	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr SADDR       =   0xA9;   \/\/0000,0000 ´Ó»úµØÖ·¼Ä´æÆ÷$/;"	v
+SADEN	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr SADEN       =   0xB9;   \/\/0000,0000 ´Ó»úµØÖ·ÆÁ±Î¼Ä´æÆ÷$/;"	v
+SBUF	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr SBUF        =   0x99;   \/\/xxxx,xxxx ´®¿Ú1Êı¾İ¼Ä´æÆ÷$/;"	v
+SCL	miaowu/MWbalanced-firmware-none/BSP/IOConfig.h	/^sbit SCL  = P5^3;			\/\/I2CÊ±ÖÓÒı½Å¶¨Òå$/;"	v
+SCON	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr SCON        =   0x98;   \/\/0000,0000 ´®¿Ú1¿ØÖÆ¼Ä´æÆ÷$/;"	v
+SDA	miaowu/MWbalanced-firmware-none/BSP/IOConfig.h	/^sbit SDA  = P0^6;			\/\/I2CÊı¾İÒı½Å¶¨Òå$/;"	v
+SM0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit SM0        =   SCON^7;$/;"	v
+SM1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit SM1        =   SCON^6;$/;"	v
+SM2	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit SM2        =   SCON^5;$/;"	v
+SMPLRT_DIV	miaowu/MWbalanced-firmware-none/common/inc/mpu6050.h	12;"	d
+SP	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr SP          =   0x81;   \/\/0000,0111 ¶ÑÕ»Ö¸Õë$/;"	v
+SP	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^SP      DATA    81H$/;"	l
+SPCTL	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr SPCTL       =   0xCE;   \/\/0000,0100 SPI¿ØÖÆ¼Ä´æÆ÷$/;"	v
+SPDAT	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr SPDAT       =   0xCF;   \/\/0000,0000 SPIÊı¾İ¼Ä´æÆ÷$/;"	v
+SPEED_CONTROL_OUT_MAX	miaowu/MWbalanced-firmware-none/Appcode/carstand.h	21;"	d
+SPEED_CONTROL_OUT_MIN	miaowu/MWbalanced-firmware-none/Appcode/carstand.h	22;"	d
+SPSTAT	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr SPSTAT      =   0xCD;   \/\/00xx,xxxx SPI×´Ì¬¼Ä´æÆ÷$/;"	v
+STARTUP1	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^STARTUP1:$/;"	l
+STBY	main0711.c	/^const int STBY = A0; \/\/standby,å½“STBY=LOW,motoræ–­ç”µ.ï¼ˆoption)$/;"	v
+STBY	motor.c	/^int STBY = 13; \/\/standby,å½“STBY=LOW,motoræ–­ç”µ$/;"	v
+STC_ISP	miaowu/MWbalanced-firmware-none/Driver/src/isp.c	/^ void STC_ISP()$/;"	f
+SampleInputVoltage	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^void SampleInputVoltage(void)$/;"	f
+SetMotorVoltageAndDirection	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^void SetMotorVoltageAndDirection(int iLeftVoltage,int iRightVoltage)$/;"	f
+Single_ReadI2C	miaowu/MWbalanced-firmware-none/common/src/i2c.c	/^unsigned char Single_ReadI2C(unsigned char REG_Address)$/;"	f
+Single_WriteI2C	miaowu/MWbalanced-firmware-none/common/src/i2c.c	/^void Single_WriteI2C(unsigned char REG_Address,unsigned char REG_data)$/;"	f
+SlaveAddress	miaowu/MWbalanced-firmware-none/common/inc/i2c.h	22;"	d
+SpeedControl	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^void SpeedControl(void)$/;"	f
+Stop	Cmain.c	/^void Stop()\/\/å°è½¦åœæ­¢$/;"	f
+Sx	mpu6050.c	/^float Px=1, Rx, Kx, Sx, Vx, Qx;             \/\/xè½´å¡å°”æ›¼å˜é‡$/;"	v
+Sx	mpu6050_kalman2.c	/^float Px=1, Rx, Kx, Sx, Vx, Qx;             \/\/xè½´å¡å°”æ›¼å˜é‡$/;"	v
+Sy	mpu6050.c	/^float Py=1, Ry, Ky, Sy, Vy, Qy;             \/\/yè½´å¡å°”æ›¼å˜é‡$/;"	v
+Sy	mpu6050_kalman2.c	/^float Py=1, Ry, Ky, Sy, Vy, Qy;             \/\/yè½´å¡å°”æ›¼å˜é‡$/;"	v
+Sz	mpu6050.c	/^float Pz=1, Rz, Kz, Sz, Vz, Qz;             \/\/zè½´å¡å°”æ›¼å˜é‡$/;"	v
+Sz	mpu6050_kalman2.c	/^float Pz=1, Rz, Kz, Sz, Vz, Qz;             \/\/zè½´å¡å°”æ›¼å˜é‡$/;"	v
+T0Temp	miaowu/MWbalanced-firmware-none/Common/src/UltraSonic.c	/^unsigned short  xdata T0Temp=0;$/;"	v
+T2H	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr T2H         =   0xD6;   \/\/0000,0000 T2¸ß×Ö½Ú$/;"	v
+T2L	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr T2L         =   0xD7;   \/\/0000,0000 T2µÍ×Ö½Ú$/;"	v
+T3H	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr T3H         =   0xD4;   \/\/0000,0000 T3¸ß×Ö½Ú$/;"	v
+T3L	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr T3L         =   0xD5;   \/\/0000,0000 T3µÍ×Ö½Ú$/;"	v
+T3T4M	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr T3T4M       =   0xD1;   \/\/0000,0000 T3\/T4Ä£Ê½¼Ä´æÆ÷$/;"	v
+T4H	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr T4H         =   0xD2;   \/\/0000,0000 T4¸ß×Ö½Ú$/;"	v
+T4L	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr T4L         =   0xD3;   \/\/0000,0000 T4µÍ×Ö½Ú$/;"	v
+T4T3M	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr T4T3M       =   0xD1;   \/\/0000,0000 T3\/T4Ä£Ê½¼Ä´æÆ÷$/;"	v
+TB8	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit TB8        =   SCON^3;$/;"	v
+TCON	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr TCON        =   0x88;   \/\/0000,0000 T0\/T1¿ØÖÆ¼Ä´æÆ÷$/;"	v
+TEMP_OUT_H	miaowu/MWbalanced-firmware-none/common/inc/mpu6050.h	22;"	d
+TEMP_OUT_L	miaowu/MWbalanced-firmware-none/common/inc/mpu6050.h	23;"	d
+TF0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit TF0        =   TCON^5;$/;"	v
+TF1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit TF1        =   TCON^7;$/;"	v
+TH0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr TH0         =   0x8C;   \/\/0000,0000 T0¸ß×Ö½Ú$/;"	v
+TH1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr TH1         =   0x8D;   \/\/0000,0000 T1¸ß×Ö½Ú$/;"	v
+TI	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit TI         =   SCON^1;$/;"	v
+TL0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr TL0         =   0x8A;   \/\/0000,0000 T0µÍ×Ö½Ú$/;"	v
+TL1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr TL1         =   0x8B;   \/\/0000,0000 T1µÍ×Ö½Ú$/;"	v
+TMOD	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr TMOD        =   0x89;   \/\/0000,0000 T0\/T1Ä£Ê½¼Ä´æÆ÷$/;"	v
+TR0	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit TR0        =   TCON^4;$/;"	v
+TR1	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sbit TR1        =   TCON^6;$/;"	v
+Timer0Init	miaowu/MWbalanced-firmware-none/driver/src/timer.c	/^void Timer0Init(void)		$/;"	f
+Timer1Init	miaowu/MWbalanced-firmware-none/driver/src/timer.c	/^void Timer1Init(void)	\/\/8ºÁÃë@20.000MHz$/;"	f
+Timer3Timer4Init	miaowu/MWbalanced-firmware-none/driver/src/timer.c	/^void Timer3Timer4Init(void)		$/;"	f
+Trig	miaowu/MWbalanced-firmware-none/Common/src/UltraSonic.c	/^sbit Trig  = P3^6;$/;"	v
+TrigPin	hc-sr04.c	/^const int TrigPin = 2;$/;"	v
+TrigPin	main0711.c	/^const int TrigPin = 2;$/;"	v
+UART1ReceiveByte	miaowu/MWbalanced-firmware-none/driver/src/uart.c	/^unsigned char UART1ReceiveByte(void)$/;"	f
+UART1SendByte	miaowu/MWbalanced-firmware-none/driver/src/uart.c	/^void UART1SendByte(unsigned char TxD1)  $/;"	f
+UART2ReceiveByte	miaowu/MWbalanced-firmware-none/driver/src/uart.c	/^unsigned char UART2ReceiveByte(void)$/;"	f
+UART2SendByte	miaowu/MWbalanced-firmware-none/driver/src/uart.c	/^void UART2SendByte(unsigned char TxD2)  $/;"	f
+UART2SendStr	miaowu/MWbalanced-firmware-none/driver/src/uart.c	/^void UART2SendStr(char *str)$/;"	f
+Uart1Init	miaowu/MWbalanced-firmware-none/driver/src/uart.c	/^void Uart1Init(void)		\/\/9600bps@20.000MHz$/;"	f
+Uart2Init	miaowu/MWbalanced-firmware-none/driver/src/uart.c	/^void Uart2Init(void)		\/\/9600bps@20.000MHz$/;"	f
+UltraControl	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^void UltraControl()$/;"	f
+UltraControlMode	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^unsigned char UltraControlMode=0;$/;"	v
+UltraDis	hc-sr04.c	/^float UltraDis()$/;"	f
+UltraDis	miaowu/MWbalanced-firmware-none/Common/src/UltraSonic.c	/^unsigned char  UltraDis(void) \/\/·µ»Ø¾àÀë µ¥Î»£ºÀåÃ×  ×î´ó255ÀåÃ×$/;"	f
+UltraFollow	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^void UltraFollow(void)$/;"	f
+UltraInit	miaowu/MWbalanced-firmware-none/Common/src/UltraSonic.c	/^void UltraInit(void)$/;"	f
+UltraTrig	miaowu/MWbalanced-firmware-none/Common/src/UltraSonic.c	/^void UltraTrig(void)$/;"	f
+Vx	mpu6050.c	/^float Px=1, Rx, Kx, Sx, Vx, Qx;             \/\/xè½´å¡å°”æ›¼å˜é‡$/;"	v
+Vx	mpu6050_kalman2.c	/^float Px=1, Rx, Kx, Sx, Vx, Qx;             \/\/xè½´å¡å°”æ›¼å˜é‡$/;"	v
+Vy	mpu6050.c	/^float Py=1, Ry, Ky, Sy, Vy, Qy;             \/\/yè½´å¡å°”æ›¼å˜é‡$/;"	v
+Vy	mpu6050_kalman2.c	/^float Py=1, Ry, Ky, Sy, Vy, Qy;             \/\/yè½´å¡å°”æ›¼å˜é‡$/;"	v
+Vz	mpu6050.c	/^float Pz=1, Rz, Kz, Sz, Vz, Qz;             \/\/zè½´å¡å°”æ›¼å˜é‡$/;"	v
+Vz	mpu6050_kalman2.c	/^float Pz=1, Rz, Kz, Sz, Vz, Qz;             \/\/zè½´å¡å°”æ›¼å˜é‡$/;"	v
+WDT_CONTR	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr WDT_CONTR   =   0xC1;   \/\/0000,0000 ¿´ÃÅ¹·¿ØÖÆ¼Ä´æÆ÷$/;"	v
+WHO_AM_I	miaowu/MWbalanced-firmware-none/common/inc/mpu6050.h	31;"	d
+WKTCH	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr WKTCH       =   0xAB;   \/\/0000,0000 µôµç»½ĞÑ¶¨Ê±Æ÷¸ß×Ö½Ú$/;"	v
+WKTCL	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	/^sfr WKTCL       =   0xAA;   \/\/0000,0000 µôµç»½ĞÑ¶¨Ê±Æ÷µÍ×Ö½Ú$/;"	v
+WriteMPUReg	mpu6050_kalman.c	/^void WriteMPUReg(int nReg, unsigned char nVal) {$/;"	f
+XBPSTACK	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^XBPSTACK        EQU     0       ; set to 1 if large reentrant is used.$/;"	d
+XBPSTACKTOP	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^XBPSTACKTOP     EQU     0xFFFF +1   ; default 0FFFFH+1 $/;"	d
+XDATALEN	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^XDATALEN        EQU     0      $/;"	d
+XDATALOOP	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^XDATALOOP:      MOVX    @DPTR,A$/;"	l
+XDATASTART	miaowu/MWbalanced-firmware-none/startup/STARTUP.A51	/^XDATASTART      EQU     0     $/;"	d
+_CARSTAND_H_	miaowu/MWbalanced-firmware-none/Appcode/carstand.h	8;"	d
+_GPIO_H_	miaowu/MWbalanced-firmware-none/driver/inc/gpio.h	8;"	d
+_IAP_H_	miaowu/MWbalanced-firmware-none/Driver/inc/isp.h	2;"	d
+_IO_CONFIG_H_	miaowu/MWbalanced-firmware-none/BSP/IOConfig.h	8;"	d
+_MPU6050_H_	miaowu/MWbalanced-firmware-none/common/inc/mpu6050.h	3;"	d
+_TIMER_H_	miaowu/MWbalanced-firmware-none/driver/inc/timer.h	3;"	d
+_UART_H_	miaowu/MWbalanced-firmware-none/driver/inc/uart.h	3;"	d
+_ULTRASONIC_H	miaowu/MWbalanced-firmware-none/Common/inc/UltraSonic.h	2;"	d
+__ADC_H__	miaowu/MWbalanced-firmware-none/Driver/inc/adc.h	4;"	d
+__DELAY_H__	miaowu/MWbalanced-firmware-none/driver/inc/delay.h	8;"	d
+__I2C_H__	miaowu/MWbalanced-firmware-none/common/inc/i2c.h	10;"	d
+__INCLUDES_H__	miaowu/MWbalanced-firmware-none/Appcode/includes.h	8;"	d
+__LED_H__	miaowu/MWbalanced-firmware-none/common/inc/led.h	2;"	d
+__PWM_H__	miaowu/MWbalanced-firmware-none/driver/inc/pwm.h	3;"	d
+__STC15F2K60S2_H_	miaowu/MWbalanced-firmware-none/BSP/IAP15W4K61S4.h	2;"	d
+_outputdata_H	miaowu/MWbalanced-firmware-none/common/inc/outputdata.h	2;"	d
+a_x	mpu6050.c	/^float a_x[10]={0}, a_y[10]={0},a_z[10]={0} ,g_x[10]={0} ,g_y[10]={0},g_z[10]={0}; \/\/åŠ é€Ÿåº¦è®¡åæ–¹å·®è®¡ç®—é˜Ÿåˆ—$/;"	v
+a_x	mpu6050_kalman2.c	/^float a_x[10]={0}, a_y[10]={0},a_z[10]={0} ,g_x[10]={0} ,g_y[10]={0},g_z[10]={0}; \/\/åŠ é€Ÿåº¦è®¡åæ–¹å·®è®¡ç®—é˜Ÿåˆ—$/;"	v
+a_y	mpu6050.c	/^float a_x[10]={0}, a_y[10]={0},a_z[10]={0} ,g_x[10]={0} ,g_y[10]={0},g_z[10]={0}; \/\/åŠ é€Ÿåº¦è®¡åæ–¹å·®è®¡ç®—é˜Ÿåˆ—$/;"	v
+a_y	mpu6050_kalman2.c	/^float a_x[10]={0}, a_y[10]={0},a_z[10]={0} ,g_x[10]={0} ,g_y[10]={0},g_z[10]={0}; \/\/åŠ é€Ÿåº¦è®¡åæ–¹å·®è®¡ç®—é˜Ÿåˆ—$/;"	v
+a_z	mpu6050.c	/^float a_x[10]={0}, a_y[10]={0},a_z[10]={0} ,g_x[10]={0} ,g_y[10]={0},g_z[10]={0}; \/\/åŠ é€Ÿåº¦è®¡åæ–¹å·®è®¡ç®—é˜Ÿåˆ—$/;"	v
+a_z	mpu6050_kalman2.c	/^float a_x[10]={0}, a_y[10]={0},a_z[10]={0} ,g_x[10]={0} ,g_y[10]={0},g_z[10]={0}; \/\/åŠ é€Ÿåº¦è®¡åæ–¹å·®è®¡ç®—é˜Ÿåˆ—$/;"	v
+aax	mpu6050.c	/^float aax=0, aay=0,aaz=0, agx=0, agy=0, agz=0;    \/\/è§’åº¦å˜é‡$/;"	v
+aax	mpu6050_kalman2.c	/^float aax=0, aay=0,aaz=0, agx=0, agy=0, agz=0;    \/\/è§’åº¦å˜é‡$/;"	v
+aax_sum	mpu6050.c	/^long aax_sum, aay_sum,aaz_sum;                      \/\/x,yè½´é‡‡æ ·å’Œ$/;"	v
+aax_sum	mpu6050_kalman2.c	/^long aax_sum, aay_sum,aaz_sum;                      \/\/x,yè½´é‡‡æ ·å’Œ$/;"	v
+aaxs	mpu6050.c	/^float aaxs[8] = {0}, aays[8] = {0}, aazs[8] = {0};         \/\/x,yè½´é‡‡æ ·é˜Ÿåˆ—$/;"	v
+aaxs	mpu6050_kalman2.c	/^float aaxs[8] = {0}, aays[8] = {0}, aazs[8] = {0};         \/\/x,yè½´é‡‡æ ·é˜Ÿåˆ—$/;"	v
+aay	mpu6050.c	/^float aax=0, aay=0,aaz=0, agx=0, agy=0, agz=0;    \/\/è§’åº¦å˜é‡$/;"	v
+aay	mpu6050_kalman2.c	/^float aax=0, aay=0,aaz=0, agx=0, agy=0, agz=0;    \/\/è§’åº¦å˜é‡$/;"	v
+aay_sum	mpu6050.c	/^long aax_sum, aay_sum,aaz_sum;                      \/\/x,yè½´é‡‡æ ·å’Œ$/;"	v
+aay_sum	mpu6050_kalman2.c	/^long aax_sum, aay_sum,aaz_sum;                      \/\/x,yè½´é‡‡æ ·å’Œ$/;"	v
+aays	mpu6050.c	/^float aaxs[8] = {0}, aays[8] = {0}, aazs[8] = {0};         \/\/x,yè½´é‡‡æ ·é˜Ÿåˆ—$/;"	v
+aays	mpu6050_kalman2.c	/^float aaxs[8] = {0}, aays[8] = {0}, aazs[8] = {0};         \/\/x,yè½´é‡‡æ ·é˜Ÿåˆ—$/;"	v
+aaz	mpu6050.c	/^float aax=0, aay=0,aaz=0, agx=0, agy=0, agz=0;    \/\/è§’åº¦å˜é‡$/;"	v
+aaz	mpu6050_kalman2.c	/^float aax=0, aay=0,aaz=0, agx=0, agy=0, agz=0;    \/\/è§’åº¦å˜é‡$/;"	v
+aaz_sum	mpu6050.c	/^long aax_sum, aay_sum,aaz_sum;                      \/\/x,yè½´é‡‡æ ·å’Œ$/;"	v
+aaz_sum	mpu6050_kalman2.c	/^long aax_sum, aay_sum,aaz_sum;                      \/\/x,yè½´é‡‡æ ·å’Œ$/;"	v
+aazs	mpu6050.c	/^float aaxs[8] = {0}, aays[8] = {0}, aazs[8] = {0};         \/\/x,yè½´é‡‡æ ·é˜Ÿåˆ—$/;"	v
+aazs	mpu6050_kalman2.c	/^float aaxs[8] = {0}, aays[8] = {0}, aazs[8] = {0};         \/\/x,yè½´é‡‡æ ·é˜Ÿåˆ—$/;"	v
+accelgyro	mpu6050.c	/^MPU6050 accelgyro;$/;"	v
+accelgyro	mpu6050_kalman2.c	/^MPU6050 accelgyro;$/;"	v
+advance	Cmain.c	/^void advance()\/\/å°è½¦å‰è¿›$/;"	f
+agx	mpu6050.c	/^float aax=0, aay=0,aaz=0, agx=0, agy=0, agz=0;    \/\/è§’åº¦å˜é‡$/;"	v
+agx	mpu6050_kalman2.c	/^float aax=0, aay=0,aaz=0, agx=0, agy=0, agz=0;    \/\/è§’åº¦å˜é‡$/;"	v
+agy	mpu6050.c	/^float aax=0, aay=0,aaz=0, agx=0, agy=0, agz=0;    \/\/è§’åº¦å˜é‡$/;"	v
+agy	mpu6050_kalman2.c	/^float aax=0, aay=0,aaz=0, agx=0, agy=0, agz=0;    \/\/è§’åº¦å˜é‡$/;"	v
+agz	mpu6050.c	/^float aax=0, aay=0,aaz=0, agx=0, agy=0, agz=0;    \/\/è§’åº¦å˜é‡$/;"	v
+agz	mpu6050_kalman2.c	/^float aax=0, aay=0,aaz=0, agx=0, agy=0, agz=0;    \/\/è§’åº¦å˜é‡$/;"	v
+ax	mpu6050.c	/^int16_t ax, ay, az, gx, gy, gz;             \/\/åŠ é€Ÿåº¦è®¡é™€èºä»ªåŸå§‹æ•°æ®$/;"	v
+ax	mpu6050_kalman2.c	/^int16_t ax, ay, az, gx, gy, gz;             \/\/åŠ é€Ÿåº¦è®¡é™€èºä»ªåŸå§‹æ•°æ®$/;"	v
+axo	mpu6050.c	/^long axo = 0, ayo = 0, azo = 0;             \/\/åŠ é€Ÿåº¦è®¡åç§»é‡$/;"	v
+axo	mpu6050_kalman2.c	/^long axo = 0, ayo = 0, azo = 0;             \/\/åŠ é€Ÿåº¦è®¡åç§»é‡$/;"	v
+ay	mpu6050.c	/^int16_t ax, ay, az, gx, gy, gz;             \/\/åŠ é€Ÿåº¦è®¡é™€èºä»ªåŸå§‹æ•°æ®$/;"	v
+ay	mpu6050_kalman2.c	/^int16_t ax, ay, az, gx, gy, gz;             \/\/åŠ é€Ÿåº¦è®¡é™€èºä»ªåŸå§‹æ•°æ®$/;"	v
+ayo	mpu6050.c	/^long axo = 0, ayo = 0, azo = 0;             \/\/åŠ é€Ÿåº¦è®¡åç§»é‡$/;"	v
+ayo	mpu6050_kalman2.c	/^long axo = 0, ayo = 0, azo = 0;             \/\/åŠ é€Ÿåº¦è®¡åç§»é‡$/;"	v
+az	mpu6050.c	/^int16_t ax, ay, az, gx, gy, gz;             \/\/åŠ é€Ÿåº¦è®¡é™€èºä»ªåŸå§‹æ•°æ®$/;"	v
+az	mpu6050_kalman2.c	/^int16_t ax, ay, az, gx, gy, gz;             \/\/åŠ é€Ÿåº¦è®¡é™€èºä»ªåŸå§‹æ•°æ®$/;"	v
+azo	mpu6050.c	/^long axo = 0, ayo = 0, azo = 0;             \/\/åŠ é€Ÿåº¦è®¡åç§»é‡$/;"	v
+azo	mpu6050_kalman2.c	/^long axo = 0, ayo = 0, azo = 0;             \/\/åŠ é€Ÿåº¦è®¡åç§»é‡$/;"	v
+back	Cmain.c	/^void back()\/\/å°è½¦åé€€$/;"	f
+backFlag	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^static unsigned char backFlag=0;$/;"	v	file:
+calibData	main0711.c	/^int calibData[nValCnt]; \/\/æ ¡å‡†æ•°æ®$/;"	v
+calibData	mpu6050_kalman.c	/^int calibData[nValCnt]; \/\/æ ¡å‡†æ•°æ®$/;"	v
+cm	hc-sr04.c	/^float cm;$/;"	v
+cm	main0711.c	/^float cm;$/;"	v
+count1	Cmain.c	/^int count1 = 0;  \/\/å·¦è½®ç¼–ç å™¨ç ç›˜è„‰å†²è®¡æ•°å€¼$/;"	v
+count2	Cmain.c	/^int count2= 0;   \/\/å³è½®ç¼–ç å™¨ç ç›˜è„‰å†²è®¡æ•°å€¼$/;"	v
+dt	mpu6050.c	/^float dt;                                   \/\/å¾®åˆ†æ—¶é—´$/;"	v
+dt	mpu6050_kalman2.c	/^float dt;                                   \/\/å¾®åˆ†æ—¶é—´$/;"	v
+fLastPitch	main0711.c	/^float fLastPitch = 0.0f; \/\/ä¸Šä¸€æ¬¡æ»¤æ³¢å¾—åˆ°çš„Pitchè§’$/;"	v
+fLastPitch	mpu6050_kalman.c	/^float fLastPitch = 0.0f; \/\/ä¸Šä¸€æ¬¡æ»¤æ³¢å¾—åˆ°çš„Pitchè§’$/;"	v
+fLastRoll	main0711.c	/^float fLastRoll = 0.0f; \/\/ä¸Šä¸€æ¬¡æ»¤æ³¢å¾—åˆ°çš„Rollè§’$/;"	v
+fLastRoll	mpu6050_kalman.c	/^float fLastRoll = 0.0f; \/\/ä¸Šä¸€æ¬¡æ»¤æ³¢å¾—åˆ°çš„Rollè§’$/;"	v
+fRad2Deg	main0711.c	/^float fRad2Deg = 57.295779513f; \/\/å°†å¼§åº¦è½¬ä¸ºè§’åº¦çš„ä¹˜æ•°$/;"	v
+fRad2Deg	mpu6050_kalman.c	/^float fRad2Deg = 57.295779513f; \/\/å°†å¼§åº¦è½¬ä¸ºè§’åº¦çš„ä¹˜æ•°$/;"	v
+flag	Cmain.c	/^int flag;\/\/è®¾ç½®å°è½¦è¡Œè½¦çŠ¶æ€ï¼Œæ˜¯å‰è¿›ã€åé€€è¿˜æ˜¯åœæ­¢$/;"	v
+g_fAngleControlOut	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float g_fAngleControlOut;$/;"	v
+g_fBluetoothDirection	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float xdata g_fBluetoothDirection;$/;"	v
+g_fBluetoothSpeed	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float xdata g_fBluetoothSpeed;$/;"	v
+g_fCarAngle	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float g_fCarAngle;         			\/\/³µÄ£Çã½Ç$/;"	v
+g_fCarPosition	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float g_fCarPosition;$/;"	v
+g_fCarSpeed	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float g_fCarSpeed;$/;"	v
+g_fCarSpeedOld	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float g_fCarSpeedOld;$/;"	v
+g_fDeltaOld	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float g_fDeltaOld;$/;"	v
+g_fDirectionControlOut	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float xdata g_fDirectionControlOut;$/;"	v
+g_fDirectionDeviation	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float xdata g_fDirectionDeviation;$/;"	v
+g_fGravityAngle	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float g_fGravityAngle;				\/\/¼ÓËÙ¶È³õ²½¼ÆËãµÃµ½µÄÇã½Ç$/;"	v
+g_fGyroAngleSpeed	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float g_fGyroAngleSpeed;			\/\/½ÇËÙ¶È      			$/;"	v
+g_fGyroscopeAngleIntegral	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float g_fGyroscopeAngleIntegral;	\/\/½ÇËÙ¶È»ı·ÖÖµ$/;"	v
+g_fLeftMotorOut	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float g_fLeftMotorOut;$/;"	v
+g_fPower	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float xdata g_fPower;$/;"	v
+g_fRightMotorOut	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float g_fRightMotorOut;$/;"	v
+g_fSpeedControlOut	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float g_fSpeedControlOut;$/;"	v
+g_fUltraSpeed	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float xdata g_fUltraSpeed;$/;"	v
+g_fcAngle_D	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float code g_fcAngle_D = 3.0;   	 \/\/½Ç¶È»·D²ÎÊı$/;"	v
+g_fcAngle_P	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float code g_fcAngle_P = 90.0;  	 \/\/½Ç¶È»·P²ÎÊı$/;"	v
+g_fcDirection_P	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float code g_fcDirection_P = 300.0;	 \/\/·½Ïò»·P²ÎÊı$/;"	v
+g_fcEliminate_P	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float code g_fcEliminate_P= 0.0;	 \/\/¶Ì¾àÀë¾ÀÕı·½Ïò»·P²ÎÊı  $/;"	v
+g_fcSpeed_I	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float code g_fcSpeed_I = 1.4;   	 \/\/ËÙ¶È»·I²ÎÊı	1.4$/;"	v
+g_fcSpeed_P	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^float code g_fcSpeed_P = 15.0 ; 	 \/\/ËÙ¶È»·P²ÎÊı	15$/;"	v
+g_iAccelInputVoltage_X_Axis	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^int   g_iAccelInputVoltage_X_Axis ;	\/\/¼ÓËÙ¶ÈXÖáÊı¾İ$/;"	v
+g_iCarSpeedSet	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^int   g_iCarSpeedSet;$/;"	v
+g_iGyroInputVoltage_Y_Axis	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^int   g_iGyroInputVoltage_Y_Axis  ;	\/\/ÍÓÂİÒÇYÖáÊı¾İ$/;"	v
+g_iGyroInputVoltage_Z_Axis	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^int   g_iGyroInputVoltage_Z_Axis  ;	\/\/ÍÓÂİÒÇYÖáÊı¾İ$/;"	v
+g_iGyroOffset	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^int g_iGyroOffset;$/;"	v
+g_iLeftMotorPulse	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^int   g_iLeftMotorPulse;$/;"	v
+g_iLeftMotorPulseSigma	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^int   g_iLeftMotorPulseSigma;$/;"	v
+g_iRightMotorPulse	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^int   g_iRightMotorPulse;$/;"	v
+g_iRightMotorPulseSigma	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^int   g_iRightMotorPulseSigma;$/;"	v
+g_ucIRFlag	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^unsigned char xdata g_ucIRFlag = 0;$/;"	v
+g_ucLEDCount	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^unsigned char xdata g_ucLEDCount;$/;"	v
+g_ucRxd2	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^unsigned char xdata g_ucRxd2;$/;"	v
+g_ucSpeedControlCount	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^unsigned char g_ucSpeedControlCount ;$/;"	v
+g_ucSpeedControlPeriod	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^unsigned char g_ucSpeedControlPeriod ;$/;"	v
+g_ucUart2Flag	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^unsigned char xdata g_ucUart2Flag;$/;"	v
+g_ucUltraDis	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^unsigned char xdata g_ucUltraDis;$/;"	v
+g_ucUltraDisLast	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^unsigned char xdata g_ucUltraDisLast;$/;"	v
+g_uiStartCount	miaowu/MWbalanced-firmware-none/Appcode/carstand.c	/^unsigned int xdata g_uiStartCount;$/;"	v
+g_x	mpu6050.c	/^float a_x[10]={0}, a_y[10]={0},a_z[10]={0} ,g_x[10]={0} ,g_y[10]={0},g_z[10]={0}; \/\/åŠ é€Ÿåº¦è®¡åæ–¹å·®è®¡ç®—é˜Ÿåˆ—$/;"	v
+g_x	mpu6050_kalman2.c	/^float a_x[10]={0}, a_y[10]={0},a_z[10]={0} ,g_x[10]={0} ,g_y[10]={0},g_z[10]={0}; \/\/åŠ é€Ÿåº¦è®¡åæ–¹å·®è®¡ç®—é˜Ÿåˆ—$/;"	v
+g_y	mpu6050.c	/^float a_x[10]={0}, a_y[10]={0},a_z[10]={0} ,g_x[10]={0} ,g_y[10]={0},g_z[10]={0}; \/\/åŠ é€Ÿåº¦è®¡åæ–¹å·®è®¡ç®—é˜Ÿåˆ—$/;"	v
+g_y	mpu6050_kalman2.c	/^float a_x[10]={0}, a_y[10]={0},a_z[10]={0} ,g_x[10]={0} ,g_y[10]={0},g_z[10]={0}; \/\/åŠ é€Ÿåº¦è®¡åæ–¹å·®è®¡ç®—é˜Ÿåˆ—$/;"	v
+g_z	mpu6050.c	/^float a_x[10]={0}, a_y[10]={0},a_z[10]={0} ,g_x[10]={0} ,g_y[10]={0},g_z[10]={0}; \/\/åŠ é€Ÿåº¦è®¡åæ–¹å·®è®¡ç®—é˜Ÿåˆ—$/;"	v
+g_z	mpu6050_kalman2.c	/^float a_x[10]={0}, a_y[10]={0},a_z[10]={0} ,g_x[10]={0} ,g_y[10]={0},g_z[10]={0}; \/\/åŠ é€Ÿåº¦è®¡åæ–¹å·®è®¡ç®—é˜Ÿåˆ—$/;"	v
+gx	mpu6050.c	/^int16_t ax, ay, az, gx, gy, gz;             \/\/åŠ é€Ÿåº¦è®¡é™€èºä»ªåŸå§‹æ•°æ®$/;"	v
+gx	mpu6050_kalman2.c	/^int16_t ax, ay, az, gx, gy, gz;             \/\/åŠ é€Ÿåº¦è®¡é™€èºä»ªåŸå§‹æ•°æ®$/;"	v
+gxo	mpu6050.c	/^long gxo = 0, gyo = 0, gzo = 0;             \/\/é™€èºä»ªåç§»é‡$/;"	v
+gxo	mpu6050_kalman2.c	/^long gxo = 0, gyo = 0, gzo = 0;             \/\/é™€èºä»ªåç§»é‡$/;"	v
+gy	mpu6050.c	/^int16_t ax, ay, az, gx, gy, gz;             \/\/åŠ é€Ÿåº¦è®¡é™€èºä»ªåŸå§‹æ•°æ®$/;"	v
+gy	mpu6050_kalman2.c	/^int16_t ax, ay, az, gx, gy, gz;             \/\/åŠ é€Ÿåº¦è®¡é™€èºä»ªåŸå§‹æ•°æ®$/;"	v
+gyo	mpu6050.c	/^long gxo = 0, gyo = 0, gzo = 0;             \/\/é™€èºä»ªåç§»é‡$/;"	v
+gyo	mpu6050_kalman2.c	/^long gxo = 0, gyo = 0, gzo = 0;             \/\/é™€èºä»ªåç§»é‡$/;"	v
+gz	mpu6050.c	/^int16_t ax, ay, az, gx, gy, gz;             \/\/åŠ é€Ÿåº¦è®¡é™€èºä»ªåŸå§‹æ•°æ®$/;"	v
+gz	mpu6050_kalman2.c	/^int16_t ax, ay, az, gx, gy, gz;             \/\/åŠ é€Ÿåº¦è®¡é™€èºä»ªåŸå§‹æ•°æ®$/;"	v
+gzo	mpu6050.c	/^long gxo = 0, gyo = 0, gzo = 0;             \/\/é™€èºä»ªåç§»é‡$/;"	v
+gzo	mpu6050_kalman2.c	/^long gxo = 0, gyo = 0, gzo = 0;             \/\/é™€èºä»ªåç§»é‡$/;"	v
+hcsr04_UltraDis	main0711.c	/^float hcsr04_UltraDis()$/;"	f
+kalmanPitch	main0711.c	/^Kalman kalmanPitch; \/\/Pitchè§’æ»¤æ³¢å™¨$/;"	v
+kalmanPitch	mpu6050_kalman.c	/^Kalman kalmanPitch; \/\/Pitchè§’æ»¤æ³¢å™¨$/;"	v
+kalmanRoll	main0711.c	/^Kalman kalmanRoll; \/\/Rollè§’æ»¤æ³¢å™¨$/;"	v
+kalmanRoll	mpu6050_kalman.c	/^Kalman kalmanRoll; \/\/Rollè§’æ»¤æ³¢å™¨$/;"	v
+lastTime	mpu6050.c	/^unsigned long now, lastTime = 0;$/;"	v
+lastTime	mpu6050_kalman2.c	/^unsigned long now, lastTime = 0;$/;"	v
+loop	Cmain.c	/^void loop()$/;"	f
+loop	main0711.c	/^void loop(){$/;"	f
+loop	motor.c	/^void loop(){$/;"	f
+loop	mpu6050.c	/^void loop()$/;"	f
+loop	mpu6050_kalman.c	/^void loop() {$/;"	f
+loop	mpu6050_kalman2.c	/^void loop()$/;"	f
+main	main.c	/^void main()$/;"	f
+main	miaowu/MWbalanced-firmware-none/Appcode/main.c	/^void main()$/;"	f
+motor_move	main0711.c	/^void motor_move(int motor, int speed, int direction){$/;"	f
+motor_stop	main0711.c	/^void motor_stop(){$/;"	f
+move	motor.c	/^void move(int motor, int speed, int direction){$/;"	f
+mpu6050_Calibration	main0711.c	/^void mpu6050_Calibration()$/;"	f
+mpu6050_GetPitch	main0711.c	/^float mpu6050_GetPitch(float *pRealVals, float fNorm) {$/;"	f
+mpu6050_GetRoll	main0711.c	/^float mpu6050_GetRoll(float *pRealVals, float fNorm) {$/;"	f
+mpu6050_ReadAccGyr	main0711.c	/^void mpu6050_ReadAccGyr(int *pVals) {$/;"	f
+mpu6050_ReadMPUReg	main0711.c	/^unsigned char mpu6050_ReadMPUReg(int nReg) {$/;"	f
+mpu6050_Rectify	main0711.c	/^void mpu6050_Rectify(int *pReadout, float *pRealVals) {$/;"	f
+mpu6050_WriteMPUReg	main0711.c	/^void mpu6050_WriteMPUReg(int nReg, unsigned char nVal) {$/;"	f
+mpu6050_kalmanLoop	main0711.c	/^void mpu6050_kalmanLoop() {$/;"	f
+nCalibTimes	main0711.c	/^const int nCalibTimes = 1000; \/\/æ ¡å‡†æ—¶è¯»æ•°çš„æ¬¡æ•°$/;"	v
+nCalibTimes	mpu6050_kalman.c	/^const int nCalibTimes = 1000; \/\/æ ¡å‡†æ—¶è¯»æ•°çš„æ¬¡æ•°$/;"	v
+nLastTime	main0711.c	/^unsigned long nLastTime = 0; \/\/ä¸Šä¸€æ¬¡è¯»æ•°çš„æ—¶é—´$/;"	v
+nLastTime	mpu6050_kalman.c	/^unsigned long nLastTime = 0; \/\/ä¸Šä¸€æ¬¡è¯»æ•°çš„æ—¶é—´$/;"	v
+nValCnt	main0711.c	/^const int nValCnt = 7; \/\/ä¸€æ¬¡è¯»å–å¯„å­˜å™¨çš„æ•°é‡$/;"	v
+nValCnt	mpu6050_kalman.c	/^const int nValCnt = 7; \/\/ä¸€æ¬¡è¯»å–å¯„å­˜å™¨çš„æ•°é‡$/;"	v
+n_sample	mpu6050.c	/^uint8_t n_sample = 8;                       \/\/åŠ é€Ÿåº¦è®¡æ»¤æ³¢ç®—æ³•é‡‡æ ·ä¸ªæ•°$/;"	v
+n_sample	mpu6050_kalman2.c	/^uint8_t n_sample = 8;                       \/\/åŠ é€Ÿåº¦è®¡æ»¤æ³¢ç®—æ³•é‡‡æ ·ä¸ªæ•°$/;"	v
+now	mpu6050.c	/^unsigned long now, lastTime = 0;$/;"	v
+now	mpu6050_kalman2.c	/^unsigned long now, lastTime = 0;$/;"	v
+old_time	Cmain.c	/^unsigned long time = 0, old_time = 0; \/\/ æ—¶é—´æ ‡è®°$/;"	v
+pi	mpu6050.c	/^float pi = 3.1415926;$/;"	v
+pi	mpu6050_kalman2.c	/^float pi = 3.1415926;$/;"	v
+rpm1	Cmain.c	/^int rpm1 = 0;  \/\/å·¦è½®ç”µæœºæ¯åˆ†é’Ÿ(min)è½¬é€Ÿ(r\/min)$/;"	v
+rpm1_HIGH	Cmain.c	/^int rpm1_HIGH = 0;\/\/å·¦è½®ç”µæœºè½¬é€Ÿåˆ†è§£æˆé«˜ã€ä½ä¸¤ä¸ªå­—èŠ‚æ•°æ®ï¼Œä»¥æ–¹ä¾¿ä¸Šä¼ ç»™PCæœº$/;"	v
+rpm1_LOW	Cmain.c	/^int rpm1_LOW = 0;$/;"	v
+rpm2	Cmain.c	/^int rpm2 = 0;  \/\/å³è½®ç”µæœºæ¯åˆ†é’Ÿ(min)è½¬é€Ÿ(r\/min)$/;"	v
+rpm2_HIGH	Cmain.c	/^int rpm2_HIGH = 0;\/\/å³è½®ç”µæœºè½¬é€Ÿåˆ†è§£æˆé«˜ã€ä½ä¸¤ä¸ªå­—èŠ‚æ•°æ®$/;"	v
+rpm2_LOW	Cmain.c	/^int rpm2_LOW = 0;$/;"	v
+setup	Cmain.c	/^void setup()$/;"	f
+setup	hc-sr04.c	/^void setup()$/;"	f
+setup	main0711.c	/^void setup() {$/;"	f
+setup	motor.c	/^void setup(){$/;"	f
+setup	mpu6050.c	/^void setup()$/;"	f
+setup	mpu6050_kalman.c	/^void setup() {$/;"	f
+setup	mpu6050_kalman2.c	/^void setup()$/;"	f
+stop	motor.c	/^void stop(){$/;"	f
+time	Cmain.c	/^unsigned long time = 0, old_time = 0; \/\/ æ—¶é—´æ ‡è®°$/;"	v
+time1	Cmain.c	/^unsigned long time1 = 0, time2 = 0; \/\/ æ—¶é—´æ ‡è®°$/;"	v
+time2	Cmain.c	/^unsigned long time1 = 0, time2 = 0; \/\/ æ—¶é—´æ ‡è®°$/;"	v
+val_FB	Cmain.c	/^int val_FB;   \/\/ä¸Šä½æœºæ§åˆ¶å­—èŠ‚ï¼Œç”¨äºæ§åˆ¶ç”µæœºæ˜¯æ­£è½¬è¿˜æ˜¯åè½¬ï¼›$/;"	v
+val_left	Cmain.c	/^int val_left;\/\/ä¸Šä½æœºæ§åˆ¶å­—èŠ‚ï¼Œç”¨äºæä¾›ç»™å·¦è½®ç”µæœºPWMåŠŸç‡å€¼ã€‚$/;"	v
+val_right	Cmain.c	/^int val_right; \/\/å°è½¦å³è½®ç”µæœºçš„PWMåŠŸç‡å€¼$/;"	v
+val_start	Cmain.c	/^int val_start;\/\/ä¸Šä½æœºæ§åˆ¶å­—èŠ‚ï¼Œç”¨äºæ§åˆ¶ç”µæœºæ˜¯å¦å¯åŠ¨ï¼›$/;"	v
